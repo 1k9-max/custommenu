@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "custommenu",
+  "version": "${version}",
+  "name": "Custom Menu Buttons",
+  "description": "Thêm nút mở menu lệnh tùy chỉnh (đọc từ file JSON) vào Pause Menu.",
+  "authors": [
+    "moon"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "jok.moon.custommenu.CustomMenuClient"
+    ]
+  },
+  "mixins": [
+    "custommenu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

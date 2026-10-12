@@ -1,0 +1,19 @@
+{
+  "key.custommenu.open": "Open Custom Menu",
+  "key.categories.custommenu": "Custom Menu",
+
+  "custommenu.button.open": "Custom Menu",
+  "custommenu.screen.title": "Custom Menu - Button list",
+  "custommenu.button.back": "Back",
+  "custommenu.button.reload": "Reload",
+  "custommenu.button.add": "Add Button",
+  "custommenu.button.close": "Close",
+
+  "custommenu.add.title": "Add new button",
+  "custommenu.add.name": "Button name",
+  "custommenu.add.command": "Command to run",
+  "custommenu.add.save": "Save",
+  "custommenu.add.cancel": "Cancel",
+
+  "custommenu.empty": "No buttons yet. Press Add Button or Reload"
+}

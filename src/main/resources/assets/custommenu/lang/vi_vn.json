@@ -1,0 +1,19 @@
+{
+  "key.custommenu.open": "Mở Custom Menu",
+  "key.categories.custommenu": "Custom Menu",
+
+  "custommenu.button.open": "Custom Menu",
+  "custommenu.screen.title": "Custom Menu - Danh sách nút",
+  "custommenu.button.back": "Quay lại",
+  "custommenu.button.reload": "Reload",
+  "custommenu.button.add": "Thêm nút",
+  "custommenu.button.close": "Đóng",
+
+  "custommenu.add.title": "Thêm nút mới",
+  "custommenu.add.name": "Tên nút",
+  "custommenu.add.command": "Lệnh sẽ chạy",
+  "custommenu.add.save": "Lưu",
+  "custommenu.add.cancel": "Hủy",
+
+  "custommenu.empty": "Chưa có nút nào, hãy bấm Thêm nút hoặc Reload"
+}
