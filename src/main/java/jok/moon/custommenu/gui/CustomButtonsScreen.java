@@ -121,6 +121,13 @@ public class CustomButtonsScreen extends Screen {
         sideWidgets.add(add);
 
         py += BTN_HEIGHT + gap;
+        ButtonWidget settings = ButtonWidget.builder(Text.translatable("custommenu.button.settings"), b -> {
+            this.client.setScreen(new SettingsScreen(this));
+        }).dimensions(px, py, SIDE_PANEL_WIDTH, BTN_HEIGHT).build();
+        this.addDrawableChild(settings);
+        sideWidgets.add(settings);
+
+        py += BTN_HEIGHT + gap;
         ButtonWidget close = ButtonWidget.builder(Text.translatable("custommenu.button.close"), b -> {
             this.client.setScreen(null);
         }).dimensions(px, py, SIDE_PANEL_WIDTH, BTN_HEIGHT).build();

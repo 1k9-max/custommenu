@@ -92,6 +92,12 @@ public final class CommandButtonManager {
         }
     }
 
+    // Thay toàn bộ danh sách (dùng cho màn hình Cài đặt: xóa / đổi vị trí) rồi lưu file
+    public static synchronized void replaceAllAndSave(List<CommandButtonEntry> newList) {
+        cache = new ArrayList<>(newList);
+        save();
+    }
+
     public static synchronized void save() {
         try {
             if (!Files.exists(CONFIG_DIR)) {
